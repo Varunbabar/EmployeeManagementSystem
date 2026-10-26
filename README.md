@@ -14,30 +14,41 @@ A Java-based employee management web application built using Spring Boot, MySQL,
 
 ## Features
 
-- Add, view, update, and delete employee records
-- Search, filter, and sort employee details
+- Add new employee records
+- View employee details
+- Update employee information
+- Delete employee records
+- Search, filter, and sort employees
 - Login and logout functionality
-- Store employee records in MySQL
+- Store employee data in a MySQL database
 
 ## Screenshots
 
 ### Login Page
 
-[Login Page](login-page.png) ([image](login-page.png))
+![Login Page](https://github.com/Varunbabar/EmployeeManagementSystem/raw/main/login-page.png)
 
 ### Employee Dashboard
 
-[Employee Dashboard](employee-dashboard.png) ([image](employee-dashboard.png))
+![Employee Dashboard](https://github.com/Varunbabar/EmployeeManagementSystem/raw/main/employee-dashboard.png)
 
 ### Add Employee
 
-[Add Employee](add-employee.png) ([image](add-employee.png))
+![Add Employee](https://github.com/Varunbabar/EmployeeManagementSystem/raw/main/add-employee.png)
 
 ### Delete Employee
 
-[Delete Employee](delete-employee.png) ([image](delete-employee.png))
+![Delete Employee](https://github.com/Varunbabar/EmployeeManagementSystem/raw/main/delete-employee.png)
 
 ## Run Locally
+
+### Prerequisites
+
+- Java 17 or later
+- MySQL
+- Maven (or use the included Maven wrapper)
+
+### Steps
 
 1. Clone the repository:
 
@@ -47,9 +58,14 @@ A Java-based employee management web application built using Spring Boot, MySQL,
 
 2. Open the project in your Java IDE.
 
-3. Create a MySQL database and configure your database connection details in your local application configuration.
+3. Create a MySQL database for the application.
 
-4. Run `EmployeeManagementSystemApplication.java`.
+4. Configure your database URL, username, and password in your local application configuration.
 
-5. Open the application using the local URL configured in your project.
+5. Run `EmployeeManagementSystemApplication.java`.
 
+6. Open the application using the local URL configured in your project.
+
+## About
+
+I built this project to practise Java, Spring Boot, database integration, and web application development. It helped me understand how the backend, database, and user interface work together.
